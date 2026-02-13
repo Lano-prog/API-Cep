@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Buscar Cep</title>
+</head>
+
+<body>
+    <main class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="alert alert-danger" id="alert-cep" role="alert">
+                        Por favor, insira um cep válido.
+                    </div>
+
+                    <h5>DDD: <span id="DDD"></span></h5>
+                    <h5>UF: <span id="UF"></span></h5>
+                    <h5>Logradouro: <span id="Logradouro"></span></h5>
+                    <h5>Bairro: <span id="Bairro"></span></h5>
+
+                    <form autocomplete="off" id="form-cep">
+                        <div class="form-group">
+                            <input type="text" maxlength="8" name="cep" id="cep" class="form-control">
+                        </div>
+                        <button class="btn btn-success">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

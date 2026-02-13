@@ -1,0 +1,32 @@
+body {
+    background: url(close-up-colorful-pins-maps.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+main .container {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0 .24) 0px 3px 8px;
+    padding: 40px;
+    border-radius: 10px;
+    width: 800px;
+    opacity: 85%;
+}
+
+main h5 span {
+    font-weight: bold;
+}
+
+.alert {
+    display: none;
+}
+
+.alert.active {
+    display: block;
+}
+
+button {
+    margin-top: 15px;
+}
