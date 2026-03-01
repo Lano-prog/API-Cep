@@ -3,6 +3,9 @@
 Aplicação web responsiva para consulta de endereços a partir de um CEP, consumindo a API pública ViaCEP e exibindo os dados automaticamente na interface.
 
 ---
+🌐 **Projeto online:** https://elano-santos.github.io/API-Cep/
+
+---
 
 ## 📸 Preview
 
