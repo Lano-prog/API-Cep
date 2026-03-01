@@ -1,5 +1,5 @@
 body {
-    background: url(../img/close-up-colorful-pins-maps.jpg);
+    background: url(../img/close-up-colorful-pins-maps.jpg); 
     background-size: cover;
     background-position: center;
     
@@ -11,7 +11,9 @@ main .container {
     box-shadow: rgba(0, 0, 0 .24) 0px 3px 8px;
     padding: 40px;
     border-radius: 10px;
-    width: 800px;
+    max-width: 800px;
+    width: 100%;
+    /* width: 800px; impede responsividade no mobile */
     opacity: 85%;
 }
 
